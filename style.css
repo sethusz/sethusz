@@ -20,7 +20,7 @@ body {
 	background-size: 98%; */
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 20%;
+	/* margin-top: 20%; */
 	
 	/* display: flex;
 	justify-content:end; 
@@ -48,19 +48,19 @@ body {
 }
 
 
-@media (min-width: 1254px) {
+/* @media (min-width: 1254px) {
 	.content {
 		
 	
 	}
-}
-@media (min-width: 1253px) {
+} */
+/* @media (min-width: 1253px) {
 	.content {
 		font-size: 80%;
 		margin-left: -33%;
 		margin-top: -0.7%;
 	}
-}
+} */
 
 /*-----------------------------header------------------------------------ */
 
@@ -85,10 +85,10 @@ header {
    .header__main{
 	width: 100%;
 	background-color: #ab2323;
-	height:84px;
+	height: 75px;
 	display: flex;
 	align-items: center;
-	position: fixed;
+	position: static;
 
 	top: 0;
 	/* z-index: 21; */
