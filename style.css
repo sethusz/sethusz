@@ -11,56 +11,96 @@ html,
 body {
 	height: 100%;
 	font-family: "Roboto", sans-serif;
-	margin: auto;
-}
-.jumbotron {
-	/* min-height: 40%; */
-	/* background: url("banans/flc.png") 0 0 / cover no-repeat;
-	background-position: 27%;
-	background-size: 98%; */
-	display: flex;
-	flex-wrap: wrap;
-	/* margin-top: 20%; */
-	
-	/* display: flex;
-	justify-content:end; 
-	 align-items:flex-end;   */
+	/* margin: auto; */
 }
 
-.content {
+
+img {
+	width: 100%;
+	margin-top: 2%;
+	display: inline-block;
+	}
+
+	.containertwo {
 	display: flex;
 	flex-wrap: wrap;
-	transform: translate(-1090%,-660%);
-    margin: 0;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	font-size: 110%;
+	}
+   
+	.right {
+	position: absolute;
+	top: 55%;
+	right: 16.5%;
+	text-decoration:none;
+	color: black;
+	font-family: 'SF Gushing Meadow SC', sans-serif;
+	}
+
+	.right:hover {
+		color: white;
+	}
+
+
+	@media screen and (max-width: 768px) {
+	
+
+	.right{
+		font-size: 50%;
+	}
+	}
+  
+	@media screen and (max-width: 1024px) {
+	
+	.containertwo {
+	  font-size: 80%;
+	  }
+	.right{
+	  transform: translate(20%);
+	}
+	}
+  
+	@media screen and (max-width: 1280px) {
+	
+	.containertwo {
+	  font-size: 100%;
+	  }
+	.right{
+	  transform: translate(20%);
+	}
+	}
+  
+	@media screen and (max-width: 480px) {
+	  .right {
+	  font-size: 40%;
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+	.right {
+	font-size: 30%;
 }
-.help {
+}
+
+
+/* .help {
 	text-decoration:none;
 	color:black;
 	 font-size: 2em;
-}
+} */
 
-.help:hover {
+/* .help:hover {
 	color: red;
-}
+} */
 .left {
 	float: left;
 	margin-left: 1%;
 }
 
 
-/* @media (min-width: 1254px) {
-	.content {
-		
-	
-	}
-} */
-/* @media (min-width: 1253px) {
-	.content {
-		font-size: 80%;
-		margin-left: -33%;
-		margin-top: -0.7%;
-	}
-} */
+
 
 /*-----------------------------header------------------------------------ */
 
@@ -108,6 +148,7 @@ header {
 	justify-content: space-between;
 	z-index: 10;
 }
+
 
 
 
@@ -174,9 +215,16 @@ background-size: 20px 20px;
 	padding: 1px 20px 10px 40px;
 	height: 100px;
 }
+.links {
+	text-decoration: none;
+	color: white;
+}
 .btn-primary{
   width: 200px;
   height: 150 px;
+}
+.links:hover {
+	color: black;
 }
 .btn-primary:hover{
   background-color: #005b96;
@@ -186,7 +234,7 @@ background-size: 20px 20px;
 
 
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 	.jumbotron {
 		margin-top: 50px;
 		min-height: 282px;
@@ -204,12 +252,12 @@ background-size: 20px 20px;
 		font-size: 36px;
 		line-height: 42px;
 	}
-}
+} */
 /*---------------------------Hero------------------------------------------*/
 
 .hero {
 	min-height: 483px;
-	/* background: url("img/1владик.jpg") 0 0 / cover no-repeat; */
+	/* background: url("img/1РІР»Р°РґРёРє.jpg") 0 0 / cover no-repeat; */
 	background-color: white;
 	display: flex;
 	justify-content: center;
